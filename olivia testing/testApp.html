@@ -23,8 +23,10 @@
                 <!-- This inserts the 3D object inside the aside container -->
                 <!-- <model-viewer src="assets/woman.gltf" alt="myFit" auto-rotate camera-controls ar ios-src="assets/woman.gltf">
                 </model-viewer> -->
+                <model-viewer id="imageid0" src="assets/woman.gltf" alt="myFit"auto-rotate camera-controls ar ios-src="assets/woman.gltf">
+                </model-viewer>
 
-                <model-viewer id="imageid" src="assets/growSmall.gltf" alt="myFit"auto-rotate camera-controls ar ios-src="assets/growSmall.gltf">
+                <model-viewer id="imageid1" src="assets/growSmall.gltf" alt="myFit"auto-rotate camera-controls ar ios-src="assets/growSmall.gltf">
                 </model-viewer>
 
                 <model-viewer id="imageid2" src="assets/growBig.gltf" alt="myFit"auto-rotate camera-controls ar ios-src="assets/growBig.gltf">
@@ -88,6 +90,8 @@
   
     var imageout = document.getElementById("image");
 
+    var state = 0;  // normal = 0, big = 1, small = 2;
+
     // document.getElementById("imageid2").style.display = "none";
 
   
@@ -97,15 +101,41 @@
       output.innerHTML = this.value;
     }
 
-    function changePic00() {
-        document.getElementById("imageid").style.visibility = "visible";
-        document.getElementById("imageid2").style.visibility = "hidden";
-
+    function changePic00() { // get bigger body
+        if (state == 2) {
+            document.getElementById("imageid2").style.visibility = "hidden";
+            document.getElementById("imageid1").style.visibility = "hidden";
+            document.getElementById("imageid0").style.visibility = "visible"; 
+            state = 0;
+        } else if (state == 0) {
+            document.getElementById("imageid2").style.visibility = "hidden";
+            document.getElementById("imageid1").style.visibility = "visible";
+            document.getElementById("imageid0").style.visibility = "hidden"; 
+            state = 1;
+        } else {
+            document.getElementById("imageid2").style.visibility = "hidden";
+            document.getElementById("imageid1").style.visibility = "visible";
+            document.getElementById("imageid0").style.visibility = "hidden"; 
+            state = 1;
+        }
     }
 
-    function changePic16() {
-        document.getElementById("imageid2").style.visibility = "visible";
-        document.getElementById("imageid").style.visibility = "hidden";
-
+    function changePic16() { // get smaller body
+        if (state == 1) {
+            document.getElementById("imageid2").style.visibility = "hidden";
+            document.getElementById("imageid1").style.visibility = "hidden";
+            document.getElementById("imageid0").style.visibility = "visible"; 
+            state = 0;
+        } else if (state == 0) {
+            document.getElementById("imageid2").style.visibility = "visible";
+            document.getElementById("imageid1").style.visibility = "hidden";
+            document.getElementById("imageid0").style.visibility = "hidden"; 
+            state = 2;
+        } else {
+            document.getElementById("imageid2").style.visibility = "visible";
+            document.getElementById("imageid1").style.visibility = "hidden";
+            document.getElementById("imageid0").style.visibility = "hidden"; 
+            state = 2;
+        }
     }
     </script>

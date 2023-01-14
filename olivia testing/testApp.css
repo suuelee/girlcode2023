@@ -37,7 +37,10 @@ body {
     border: none;
     /* background-color: aqua; */
 }
-#imageid {
+#imageid0 {
+    visibility: visible;
+}
+#imageid1 {
     visibility: hidden;
 }
 #imageid2 {

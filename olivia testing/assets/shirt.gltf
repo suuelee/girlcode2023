@@ -1,0 +1,177 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                1,
+                3
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Simple women .t shirt",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "Simple women t shirt",
+            "translation" : [
+                839.0266723632812,
+                0,
+                -244.13351440429688
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "Simple women .t shirt.001",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "scale" : [
+                14.632994651794434,
+                14.632994651794434,
+                14.632994651794434
+            ]
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "Simple women t shirt.001",
+            "translation" : [
+                1.1531968116760254,
+                0,
+                0.33698225021362305
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material.001",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Tsirt-02",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "green",
+            "uri" : "green.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 3139,
+            "max" : [
+                0.2944900095462799,
+                0.13884100317955017,
+                -0.8591600060462952
+            ],
+            "min" : [
+                -0.28786399960517883,
+                -0.1395229995250702,
+                -1.5289829969406128
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 3139,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 3139,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 18468,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 37668,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 37668,
+            "byteOffset" : 37668
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 25112,
+            "byteOffset" : 75336
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 36936,
+            "byteOffset" : 100448
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 137384,
+            "uri" : "shirt.bin"
+        }
+    ]
+}

@@ -24,12 +24,18 @@
                 <!-- <model-viewer src="assets/woman.gltf" alt="myFit" auto-rotate camera-controls ar ios-src="assets/woman.gltf">
                 </model-viewer> -->
 
-                <model-viewer src="assets/growSmall.gltf" alt="myFit"auto-rotate camera-controls ar ios-src="assets/growSmall.gltf">
+                <model-viewer id="imageid" src="assets/growSmall.gltf" alt="myFit"auto-rotate camera-controls ar ios-src="assets/growSmall.gltf">
                 </model-viewer>
+
+                <model-viewer id="imageid2" src="assets/growBig.gltf" alt="myFit"auto-rotate camera-controls ar ios-src="assets/growBig.gltf">
+                </model-viewer>
+
+               
                 <!-- <model-viewer style = "width:50px;height:50px;" src="assets/woman.glb"  camera-controls ></model-viewer> -->
             </div>
         </div>
-    
+
+         
         <div class="pricing">
             <img class="pricing-img" src="./images/pricing.png">
 
@@ -41,6 +47,11 @@
                 class="slider" id="myRange">
                 <p>Value: <span id="demo"></span></p>
               </div>
+
+              <button id="button1" onclick="changePic00()">Size Up</button>
+
+              <button id="button2" onclick="changePic16()">Size Down</button>
+
 
             <div class="size-dropdown">
                 <select class="select-dropdown">
@@ -76,10 +87,25 @@
     var output = document.getElementById("demo");
   
     var imageout = document.getElementById("image");
+
+    // document.getElementById("imageid2").style.display = "none";
+
   
     output.innerHTML = slider.value;
     
     slider.oninput = function() {
       output.innerHTML = this.value;
+    }
+
+    function changePic00() {
+        document.getElementById("imageid").style.visibility = "visible";
+        document.getElementById("imageid2").style.visibility = "hidden";
+
+    }
+
+    function changePic16() {
+        document.getElementById("imageid2").style.visibility = "visible";
+        document.getElementById("imageid").style.visibility = "hidden";
+
     }
     </script>

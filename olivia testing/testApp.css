@@ -37,7 +37,32 @@ body {
     border: none;
     /* background-color: aqua; */
 }
+#imageid {
+    visibility: hidden;
+}
+#imageid2 {
+    visibility: hidden;
+}
 
+#button1 {
+    margin-top: 5%;
+    width: 90%; 
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-family: 'Geo';
+
+}
+
+#button2 {
+    margin-top: 5%;
+    width: 90%; 
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-family: 'Geo';
+
+}
 
 .pricing {
     display: flex;

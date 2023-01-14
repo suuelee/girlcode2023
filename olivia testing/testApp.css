@@ -5,15 +5,16 @@ body {
 .main-container {
     display: flex;
     flex-direction: horizontal;
+    /* outline-style: solid; */
 }
 
 .body-visualizer {
 
-    width: 65%;
+    width: 55%;
     height: 40rem;
     margin-left: 2%;
-    margin-top: 15%;
-    top: 400px;
+    margin-top: 5%;
+    top: 200px;
     border-radius: 0px;
     /* outline-style: solid; */
     background-color: lightgrey;
@@ -23,28 +24,76 @@ body {
 .pricing {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 20%;
     height: 40rem;
     margin-left: 2%;
-    margin-top: 15%;
-    top: 400px;
+    margin-top: 5%;
+    top: 200px;
     border-radius: 0px;
-    outline-style: solid;
+    /* outline-style: solid; */
 
 }
 
 .size-dropdown {
     height: 5%;
-    margin-top: 150%;
+    margin-top: 20%;
     /* outline-style: solid; */
 }
 
 .select-dropdown {
     height: 100%;
     width: 100%;
+    padding: 8px 8px 8px 8px;
+    font-size: 10px;
+    border-radius: 0px;
+    border: solid black;
+    border-width: 1px;
+    background-color: white;
+    margin-bottom: 10px;
 }
 
+.product-description {
+    width: 100%;
+    height: 70%;
+}
 
 .pricing-img {
+    margin-top: 5%;
     width: 90%;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* outline-style: solid; */
+}
+
+.aritzia-header {
+    width: 100%;
+    /* outline-style: solid; */
+}
+
+.slidecontainer {
+    width: 90%; 
+    height: 80px; 
+    margin-top: 10%;
+    /* border: solid black 2px; */
+    background-color: white;
+    align-self: center;
+    /* display: flex; */
+    padding: 5%;
+    font-size: 9px;
+  }
+
+  /* The slider itself */
+  .slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 95%; /* Full-width */
+    height: 5px; /* Specified height */
+    background: #000000; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }

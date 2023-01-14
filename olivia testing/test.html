@@ -4,11 +4,13 @@
   <meta charset=utf-8>
   <title></title>
   <link rel="stylesheet" href="stylesheets/style.css"></style>
+  <script src="myscripts.js"></script>
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
 
 </head>
+<<<<<<< HEAD
 <header class="main-header" id="headerMain">
   <div class="header">
       <h1><strong>ARITZIA</strong></h1> 
@@ -16,9 +18,58 @@
 </header>
 
 <div>
+=======
+
+
+<!-- <div>
+>>>>>>> 045d40515b42526afcdf3dc3fc7688c60e2ba2be
     HELLOOOO
+</div> -->
+
+<header class="main-header" id="headerMain">
+  <div class="header">
+    <img src="./images/Header.png" alt="Aritzia Header">
+  </div>
+</header>
+
+
+
+<div class="slidecontainer">
+
+  <h2>View on me</h2>
+
+  <input type="range" min="1" max="100" value="50" 
+  class="slider" id="myRange">
+
+  <p>Value: <span id="demo"></span></p>
+
+
+  <!-- <p>Size: <span id="chosen-size"></span> -->
+<!-- 
+    <div class="body-image"> 
+
+      <img src="images\image 3.png" alt="body image">
+      
+    </div> -->
+
 </div>
+
+
 <body>
 
 </body>
 </html>
+
+<script>
+  var slider = document.getElementById("myRange");
+  var output = document.getElementById("demo");
+
+  var imageout = document.getElementById("image");
+
+  output.innerHTML = slider.value;
+  
+  slider.oninput = function() {
+    output.innerHTML = this.value;
+  }
+  </script>
+  

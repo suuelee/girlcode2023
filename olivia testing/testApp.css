@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'Geo';
+    src: url('Geo-Regular/Geo.ttf')
+}
+body {
+    background-color: #F7F7F7;
+    font-family: 'Geo';
+}
+
+.main-container {
+    display: flex;
+    flex-direction: horizontal;
+    /* outline-style: solid; */
+}
+
+.body-visualizer {
+
+    width: 55%;
+    height: 40rem;
+    margin-left: 2%;
+    margin-top: 5%;
+    top: 200px;
+    border-radius: 0px;
+    /* outline-style: solid; */
+    background-color: lightgrey;
+
+}
+
+.pricing {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 40rem;
+    margin-left: 2%;
+    margin-top: 3.5%;
+    top: 200px;
+    border-radius: 0px;
+    /* outline-style: solid; */
+
+}
+
+.size-dropdown {
+    height: 5%;
+    margin-top: 15%;
+    margin-bottom: 2%
+    /* outline-style: solid; */
+}
+
+.select-dropdown {
+    height: 100%;
+    width: 90%;
+    padding: 8px 8px 8px 8px;
+    font-size: 10px;
+    border-radius: 0px;
+    border: solid black;
+    border-width: 1px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    width: 90%;
+    height: 70%;
+}
+
+.pricing-img {
+    margin-top: 5%;
+    width: 90%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* outline-style: solid; */
+}
+
+.aritzia-header {
+    width: 80%;
+    /* outline-style: solid; */
+}
+
+.slidecontainer {
+    width: 80%; 
+    height: 80px; 
+    margin-top: 10%;
+    border: solid black 1px;
+    background-color: white;
+    align-self: right;
+    /* display: flex; */
+    padding: 5%;
+    font-size: 9px;
+  }
+
+ /* The slider itself */
+ .slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 95%; /* Full-width */
+    height: 5px; /* Specified height */
+    background: #000000; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+  }
+  
+  /* Mouse-over effects */
+  .slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+  
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #000000; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #000000; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }

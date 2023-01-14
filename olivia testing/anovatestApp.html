@@ -1,0 +1,70 @@
+<html lang="en">
+<head>
+  <meta charset=utf-8>
+  <title></title>
+  <link rel="stylesheet" href="./anovatestApp.css"></style>
+  
+</head>
+
+<header class="main-header" id="headerMain">
+    <div class="header">
+      <img src="./images/Header.png" alt="Aritzia Header">
+    </div>
+  </header>
+
+<div class="main-container">
+    <div class="body-visualizer">
+        body-visualizer
+    </div>
+
+    <div class="pricing">      
+        <img class="pricing-img" src="./images/pricing.png">
+
+        <div class="slidecontainer">
+
+            <h2>View on me</h2>
+          
+            <input type="range" min="1" max="100" value="50" 
+            class="slider" id="myRange">
+            <p>Value: <span id="demo"></span></p>
+          </div>
+          
+        <div class="size-dropdown">
+            <select class="select-dropdown">
+                <option value=""disabled selected>Select a Size</option>
+                <option value="">00</option>
+                <option value="">0</option>
+                <option value="">2</option>
+                <option value="">4</option>
+                <option value="">6</option>
+                <option value="">8</option>
+                <option value="">10</option>
+                <option value="">12</option>
+                <option value="">14</option>
+                <option value="">16</option>
+            </select>
+        </div>
+    </div>
+
+
+</div>
+
+<body>
+
+</body>
+</html>
+
+
+<script>
+    var slider = document.getElementById("myRange");
+    var output = document.getElementById("demo");
+  
+    var imageout = document.getElementById("image");
+  
+    output.innerHTML = slider.value;
+    
+    slider.oninput = function() {
+      output.innerHTML = this.value;
+    }
+    </script>
+    

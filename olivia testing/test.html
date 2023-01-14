@@ -9,6 +9,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
 </head>
+
+
 <!-- <div>
     HELLOOOO
 </div> -->
@@ -19,13 +21,25 @@
   </div>
 </header>
 
+
+
 <div class="slidecontainer">
 
-  <h2>Height</h2>
+  <h2>View on me</h2>
+
   <input type="range" min="1" max="100" value="50" 
   class="slider" id="myRange">
 
   <p>Value: <span id="demo"></span></p>
+
+
+  <!-- <p>Size: <span id="chosen-size"></span> -->
+<!-- 
+    <div class="body-image"> 
+
+      <img src="images\image 3.png" alt="body image">
+      
+    </div> -->
 
 </div>
 
@@ -38,6 +52,9 @@
 <script>
   var slider = document.getElementById("myRange");
   var output = document.getElementById("demo");
+
+  var imageout = document.getElementById("image");
+
   output.innerHTML = slider.value;
   
   slider.oninput = function() {

@@ -29,11 +29,11 @@ body {
 /* This styles the 3D object inserted in the aside container */
 
 .aSide model-viewer {
-    height: 40rem;
-    width: 20%;
+    height: 39.5rem;
+    width: 50%;
     position: absolute;
-    top: 25%;
-    left: 20%;
+    top: 23.5%;
+    left: 5%;
     border: none;
     /* background-color: aqua; */
 }

@@ -1,0 +1,50 @@
+body {
+    background-color: #F7F7F7;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: horizontal;
+}
+
+.body-visualizer {
+
+    width: 65%;
+    height: 40rem;
+    margin-left: 2%;
+    margin-top: 15%;
+    top: 400px;
+    border-radius: 0px;
+    /* outline-style: solid; */
+    background-color: lightgrey;
+
+}
+
+.pricing {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 40rem;
+    margin-left: 2%;
+    margin-top: 15%;
+    top: 400px;
+    border-radius: 0px;
+    outline-style: solid;
+
+}
+
+.size-dropdown {
+    height: 5%;
+    margin-top: 150%;
+    /* outline-style: solid; */
+}
+
+.select-dropdown {
+    height: 100%;
+    width: 100%;
+}
+
+
+.pricing-img {
+    width: 90%;
+}

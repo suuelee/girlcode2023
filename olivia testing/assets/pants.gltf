@@ -1,0 +1,207 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.33",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "DG100110",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "W_Twill_98_Ctn_2Spa_260GSM_H_DF22018_FRONT_620296",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.9004921317100525
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Material889753",
+            "pbrMetallicRoughness" : {}
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "DG100110",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "leather",
+            "uri" : "leather.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 113242,
+            "max" : [
+                14.675877571105957,
+                7.189446926116943,
+                -6.3484601974487305
+            ],
+            "min" : [
+                -14.762544631958008,
+                -16.007125854492188,
+                -83.8346176147461
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 113242,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 113242,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5125,
+            "count" : 640332,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 1709,
+            "max" : [
+                2.71323299407959,
+                7.417183876037598,
+                -78.5199966430664
+            ],
+            "min" : [
+                0.5049129724502563,
+                6.924552917480469,
+                -80.7255630493164
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 1709,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 1709,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 8292,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 1358904,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 1358904,
+            "byteOffset" : 1358904
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 905936,
+            "byteOffset" : 2717808
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2561328,
+            "byteOffset" : 3623744
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 20508,
+            "byteOffset" : 6185072
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 20508,
+            "byteOffset" : 6205580
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 13672,
+            "byteOffset" : 6226088
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 16584,
+            "byteOffset" : 6239760
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 6256344,
+            "uri" : "pants.bin"
+        }
+    ]
+}

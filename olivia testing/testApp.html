@@ -3,7 +3,9 @@
   <meta charset=utf-8>
   <title></title>
   <link rel="stylesheet" href="./testApp.css"></style>
-  
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>
 </head>
 <div class="container">
      
@@ -13,7 +15,19 @@
 
     <div class="main-container">
         <div class="body-visualizer">
-            body-visualizer
+            <!-- An aside -->
+            <!-- This is for holding the 3D object -->
+            <div class="aSide">
+
+                <!-- 3D object -->
+                <!-- This inserts the 3D object inside the aside container -->
+                <!-- <model-viewer src="assets/woman.gltf" alt="myFit" auto-rotate camera-controls ar ios-src="assets/woman.gltf">
+                </model-viewer> -->
+
+                <model-viewer src="assets/woman.gltf" alt="myFit"auto-rotate camera-controls ar ios-src="assets/woman.gltf">
+                </model-viewer>
+                <!-- <model-viewer style = "width:50px;height:50px;" src="assets/woman.glb"  camera-controls ></model-viewer> -->
+            </div>
         </div>
     
         <div class="pricing">

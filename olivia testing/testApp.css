@@ -21,10 +21,23 @@ body {
     margin-top: 5%;
     top: 200px;
     border-radius: 0px;
+    border: none;
     /* outline-style: solid; */
     background-color: lightgrey;
-
 }
+
+/* This styles the 3D object inserted in the aside container */
+
+.aSide model-viewer {
+    height: 40rem;
+    width: 20%;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    border: none;
+    /* background-color: aqua; */
+}
+
 
 .pricing {
     display: flex;

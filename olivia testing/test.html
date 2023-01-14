@@ -4,19 +4,44 @@
   <meta charset=utf-8>
   <title></title>
   <link rel="stylesheet" href="stylesheets/style.css"></style>
+  <script src="myscripts.js"></script>
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
 </head>
-<div>
+<!-- <div>
     HELLOOOO
-</div>
+</div> -->
+
+<header class="main-header" id="headerMain">
+  <div class="header">
+    <img src="./images/Header.png" alt="Aritzia Header">
+  </div>
+</header>
 
 <div class="slidecontainer">
-  <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+
+  <h2>Height</h2>
+  <input type="range" min="1" max="100" value="50" 
+  class="slider" id="myRange">
+
+  <p>Value: <span id="demo"></span></p>
+
 </div>
+
 
 <body>
 
 </body>
 </html>
+
+<script>
+  var slider = document.getElementById("myRange");
+  var output = document.getElementById("demo");
+  output.innerHTML = slider.value;
+  
+  slider.oninput = function() {
+    output.innerHTML = this.value;
+  }
+  </script>
+  

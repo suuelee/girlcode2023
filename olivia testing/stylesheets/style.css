@@ -1,9 +1,7 @@
-<<<<<<< HEAD
 .header {
     padding: 0px;
     font-size: 50px;  
 }
-=======
 /* .slidecontainer { width: 800px; height: 400px; border: solid black 2px; } */
 .img {
     width: 100%;
@@ -48,4 +46,3 @@
     background: #000000; /* Green background */
     cursor: pointer; /* Cursor on hover */
   }
->>>>>>> 045d40515b42526afcdf3dc3fc7688c60e2ba2be

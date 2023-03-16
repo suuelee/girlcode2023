@@ -4,7 +4,7 @@
 
 1. clone the repo: https://github.com/suuelee/girlcode2023
 
-2. Launch the main.html file in google chrome
+2. Launch the melina.html file in google chrome
 
 3. Select the "myFit" button on the Melina Pant webpage
 
